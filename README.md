@@ -1,4 +1,6 @@
-ionamiento básico de Keycloak
+# Keycloak + Google Login + Aplicación Dummy
+
+## Auto
 - Configurar autenticación centralizada
 - Integrar un proveedor externo de identidad (Google)
  Implementar una aplicación protegida mediante autenticación
@@ -94,7 +96,7 @@ semillero-realm
 ## Cliente
 
 ```text
-hola-mundo-app
+Dummy-app
 ```
 
 ## Redirect URI
@@ -158,7 +160,7 @@ npm install
 # Ejecutar aplicación
 
 ```bash
-npm start
+node app.js
 ```
 
 ---
@@ -181,53 +183,7 @@ http://localhost:3000
 6. Usuario retorna autenticado a la aplicación
 7. Aplicación muestra mensaje personalizado
 
----
-
-# Evidencias
-
-## Keycloak funcionando
-
-Agregar screenshot aquí.
-
----
-
-## Realm creado
-
-Agregar screenshot aquí.
-
----
-
-## Identity Provider Google
-
-Agregar screenshot aquí.
-
----
-
-## Aplicación dummy autenticada
-
-Agregar screenshot aquí.
-
----
-
-# Problemas encontrados
-
-## Problema
-
-Error:
-
-```text
-npm error Missing script: "start"
-```
-
-## Solución
-
-Se agregó el script start en package.json:
-
-```json
-"scripts": {
-  "start": "node app.js"
-}
-```
+`
 
 ---
 
