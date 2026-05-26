@@ -1,41 +1,13 @@
-# Keycloak + Google Login + Aplicación Dummy
-
-## Autor
-
-Ricardo Sandoval
-
----
-
-# Descripción del proyecto
-
-Este proyecto implementa un entorno local de autenticación y autorización utilizando Keycloak, Docker y una aplicación dummy en Node.js.
-
-La solución incluye:
-
-- Instalación local de Keycloak usando Docker
-- Persistencia de datos mediante volúmenes
-- Creación de un Realm personalizado
-- Configuración de autenticación federada con Google
-- Registro de una aplicación cliente
-- Implementación de login usando OpenID Connect
-- Aplicación dummy protegida con Keycloak
-
----
-
-# Objetivos
-
-- Comprender el funcionamiento básico de Keycloak
+ionamiento básico de Keycloak
 - Configurar autenticación centralizada
 - Integrar un proveedor externo de identidad (Google)
-- Implementar una aplicación protegida mediante autenticación
+ Implementar una aplicación protegida mediante autenticación
 
 ---
-
-# Tecnologías utilizadas
+ Tecnologías utilizadas
 
 | Tecnología | Uso |
-|---|---|
-| Docker | Contenedorización |
+| Contenedorización |
 | Keycloak | Gestión de identidad y acceso |
 | Node.js | Backend aplicación dummy |
 | Express | Framework web |
@@ -44,24 +16,7 @@ La solución incluye:
 
 ---
 
-# Arquitectura de la solución
-
-```text
-Usuario
-   │
-   ▼
-Aplicación Node.js
-   │
-   ▼
-Keycloak
-   │
-   ▼
-Google Login
-```
-
----
-
-# Estructura del proyecto
+yecto
 
 ```text
 s2026q2a-kc-rsandoval/
